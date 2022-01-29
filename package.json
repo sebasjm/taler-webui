@@ -1,0 +1,27 @@
+{
+  "name": "taler-webui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev-build": "rollup -c -w",
+    "dev-serve": "reload -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@linaria/core": "3.0.0-beta.4",
+    "@linaria/rollup": "3.0.0-beta.4",
+    "@svgr/rollup": "^6.2.0",
+    "polished": "^4.1.4",
+    "reload": "^3.2.0",
+    "rollup": "^2.63.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^3.1.0"
+  },
+  "dependencies": {
+    "preact": "^10.6.4"
+  }
+}

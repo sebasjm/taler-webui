@@ -1,0 +1,6 @@
+.pnpm-debug.log
+.rollup.cache/
+dist/
+node_modules/
+tsconfig.tsbuildinfo
+
